@@ -1,5 +1,15 @@
-// Implementation of selection sort algorithm using java
-
+/* Implementation of selection sort algorithm using java.
+   Performance of this selection sort algorithm is O(n^2).
+   Initially it takes element at index 0 as minimum value
+   and compare with rest of the elements in the array if any
+   value in rest of the array is smaller than minimum value
+   then swapping takes place otherwise no swapping.
+   That means 1st element is sorted and the next element at index 1
+   is considered as minimum value and compared with rest of the 
+   array and if any value in rest of the array is smaller than 
+   minimum value then swapping takes place otherwise no swapping.
+   Process continues like that....
+*/
 public class SelectionSort {
 	public static void main(String[] args) {
 		int min,temp,index =0;
